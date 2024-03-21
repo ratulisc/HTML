@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile - School Database</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #1e90ff;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Student Profile styles */
+        .student-profile {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .profile-details {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .student-info h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .student-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Student Courses styles */
+        .student-courses {
+            max-width: 800px;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .student-courses h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .student-courses ul {
+            list-style: none;
+        }
+
+        .student-courses li {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer styles (You can reuse the footer styles from the homepage) */
+        footer {
+            background-color: #1e90ff;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>School Database</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Students</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="student-profile">
+        <div class="profile-header">
+            <h2>Student Profile</h2>
+        </div>
+        <div class="profile-details">
+            <img src="student-avatar.jpg" alt="Student Image" class="profile-image">
+            <div class="student-info">
+                <h3>Ratul Hossain</h3>
+                <p>Student ID: 07</p>
+                <p>Email: john.doe@example.com</p>
+                <p>Grade: 7</p>
+                <p>DOB: January 15, 2005</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="student-courses">
+        <h2>Courses</h2>
+        <ul>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>History</li>
+            <li>English</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 School Database. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
